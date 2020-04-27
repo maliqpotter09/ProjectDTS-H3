@@ -1,0 +1,180 @@
+@media (max-width :1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+    }
+  .heading h2 {
+    font-size: 20px;
+    }
+  .profile {
+    width: 50%;
+    margin-bottom: 20px;
+    }
+  .profile-icon {
+    margin: 0 auto;
+    }
+  .profile-tablet {
+    width: 100%
+    }
+  form {
+    width: 95%;
+    }
+  form p {
+    margin-bottom: 3px;
+    }
+  input,textarea {
+    padding: 10px;
+    font-size: 12px;
+    width: 100%;
+    border: 1px solid #238db0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+  .btn {
+    border: 0px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #238db0;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 0 6px 0 #187594;
+    }
+  .btn:hover {
+    cursor: pointer;
+    background-color: #3ba9ce;
+    }
+  .btn:active {
+    cursor: pointer;
+    position: relative;
+    top: 9px;
+    box-shadow: none;
+    }
+/* akhir form */
+/* sosmed */
+  .social-media {
+    width: 100%;
+    margin-left: 0px;
+    }
+  .sosmed {
+    display: flex;
+    padding-left: 20px;
+    }
+  .sosmed-item {
+    width: 20%;
+    margin-right: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    }
+  .sosmed-item img {
+    width: 100px;
+    transition: all 0.5s;
+    }
+  .sosmed-item img:hover {
+    width: 95px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    }
+  .sosmed-item p {
+    font-weight: bold;
+    }
+/* akhir sosmed */
+/* end extra 2 */
+
+@media (max-width :670px) {
+  footer {
+    text-align: center;
+  }
+  .btn {
+    width: 100%;
+  }
+  .facebook {
+    margin-bottom: 10px;
+  }
+  .top-wrapper {
+    text-align: left;
+  }
+/* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+/* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .profile {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .profile-icon {
+    margin: 0 auto;
+  }
+/* Extra2 */
+/* form */
+  form {
+    width: 90%;
+  }
+  form p {
+    margin-bottom: 3px;
+  }
+  input,textarea {
+    padding: 10px;
+    font-size: 10px;
+    width: 100%;
+    border: 1px solid #238db0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .btn {
+    border: 0px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #238db0;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 0 6px 0 #187594;
+  }
+  .btn:hover {
+    cursor: pointer;
+    background-color: #3ba9ce;
+  }
+  .btn:active {
+    cursor: pointer;
+    position: relative;
+    top: 9px;
+    box-shadow: none;
+    background-color: #3ba9ce;
+  }
+/* akhir form */
+/* sosmed */
+  .social-media {
+    width: 100%;
+  }
+  .sosmed {
+    display: flex;
+  }
+  .sosmed-item {
+    width: 15%;
+    margin-right: 25px;
+    box-sizing: border-box;
+  }
+  .sosmed-item img {
+    width: 50px;
+    transition: all 0.5s;
+  }
+  .sosmed-item img:hover {
+    width: 45px;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+  .sosmed-item p {
+    font-size: 10px;
+    text-align: center;
+  }
+/* akhir sosmed */
+/* end Extra2 */
+}
